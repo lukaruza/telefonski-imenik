@@ -93,6 +93,16 @@ namespace PresentationLayer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _66661 {
+            get {
+                object obj = ResourceManager.GetObject("66661", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap notebook_wallpaper_presentation_backgrounds {
             get {
                 object obj = ResourceManager.GetObject("notebook-wallpaper-presentation-backgrounds", resourceCulture);
@@ -107,6 +117,17 @@ namespace PresentationLayer.Properties {
             get {
                 object obj = ResourceManager.GetObject("pnghut_reverse-telephone-directory-address-book-number-clip-art-mobile-phone-vect" +
                         "or-and-this", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pnghut_reverse_telephone_directory_address_book_number_clip_art_mobile_phone_vector_and_this1 {
+            get {
+                object obj = ResourceManager.GetObject("pnghut_reverse-telephone-directory-address-book-number-clip-art-mobile-phone-vect" +
+                        "or-and-this1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

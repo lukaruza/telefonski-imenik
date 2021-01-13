@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="6666" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6666.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="2018_bentley_continental_gt_159_2560x1440" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2018_bentley_continental_gt_159_2560x1440.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -127,13 +130,16 @@
   <data name="pnghut_reverse-telephone-directory-address-book-number-clip-art-mobile-phone-vector-and-this" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pnghut_reverse-telephone-directory-address-book-number-clip-art-mobile-phone-vector-and-this.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="66661" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\6666.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="notebook-wallpaper-presentation-backgrounds" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\notebook-wallpaper-presentation-backgrounds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tekstura-linii-polosy-polya" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tekstura-linii-polosy-polya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="6666" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6666.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pnghut_reverse-telephone-directory-address-book-number-clip-art-mobile-phone-vector-and-this1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\pnghut_reverse-telephone-directory-address-book-number-clip-art-mobile-phone-vector-and-this.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
