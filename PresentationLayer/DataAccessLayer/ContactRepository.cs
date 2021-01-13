@@ -49,10 +49,28 @@ namespace DataAccessLayer
                 SqlCommand sqlCommand = new SqlCommand();
                 sqlCommand.Connection = sqlconnection;
                 sqlCommand.CommandText = 
-                    string.Format("INSERT INTO Contacts VALUES ({0}, {1}, '{2}', '{3}', {4}, {5}, {6}, {7}",s.Name, s.Surname, s.PhoneNumber, s.Fax, s.Email, s.Address, s.Description);
+                    string.Format("INSERT INTO Contacts VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}')",s.Name, s.Surname, s.PhoneNumber, s.Fax, s.Email, s.Address, s.Description);
+
+                sqlconnection.Open();
+
                 return sqlCommand.ExecuteNonQuery();
             }
 
+        }
+
+        public int DeleteContact(string e)
+        {
+            using (SqlConnection sqlconnection = new SqlConnection(Constant.connectionString))
+            {
+                SqlCommand sqlCommand = new SqlCommand();
+                sqlCommand.Connection = sqlconnection;
+                sqlCommand.CommandText =
+                    string.Format("DELETE FROM Contacts WHERE Id = '"+e+"'");
+
+                sqlconnection.Open();
+
+                return sqlCommand.ExecuteNonQuery();
+            }
         }
     }
 }

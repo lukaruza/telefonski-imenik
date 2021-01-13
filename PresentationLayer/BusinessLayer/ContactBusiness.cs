@@ -30,5 +30,13 @@ namespace BusinessLayer
             }
             return false;   
         }
+        public bool DeleteContact(string e)
+        {
+            if(this.contactRepository.DeleteContact(e)>0)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
